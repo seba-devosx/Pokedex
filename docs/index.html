@@ -12,10 +12,12 @@
 <body>
 <div class="container-fluid">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="7em" height="6em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10a10 10 0 0 1-10 10A10 10 0 0 1 2 12A10 10 0 0 1 12 2m0 2c-4.08 0-7.45 3.05-7.94 7h4.07c.44-1.73 2.01-3 3.87-3c1.86 0 3.43 1.27 3.87 3h4.07c-.49-3.95-3.86-7-7.94-7m0 16c4.08 0 7.45-3.05 7.94-7h-4.07c-.44 1.73-2.01 3-3.87 3c-1.86 0-3.43-1.27-3.87-3H4.06c.49 3.95 3.86 7 7.94 7m0-10a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2z" fill="white"/></svg>
         <a class="navbar-brand" href="#">DexSearch</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <span class="iconify" data-icon="mdi-pokeball" data-inline="false"></span>
       
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav mr-auto">
@@ -32,18 +34,14 @@
               <a class="nav-link" href="#">About</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mb-mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
       </nav>
 
 </div>
-<div class="container">
+<div class="container mt-3">
     <div class="jumbotron">
         <div class="form-group row justify-content-center">
-            <input type="text"  class="form-control-plaintext col-md-4 col-12 btn-block text-white" id="id" placeholder="Example:pikachu or number of pokemon">
+            <input type="text"  class="form-control-plaintext col-md-4 col-8 btn-block text-white" id="id" placeholder="pokemon name or number">
             <button onClick="consultarApi();"class="btn btn-primary">Buscar PK</button>
         </div>
     </div>

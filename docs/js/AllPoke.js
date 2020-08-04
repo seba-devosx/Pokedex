@@ -49,7 +49,7 @@ function pokedexall(data){
          
         const pokemon = document.createElement("DIV");
             pokemon.innerHTML = `
-        <div class="pok" id="pkemon">
+        <div class="col-4" id="pkemon">
             <div class="row justify-content-center">
               <div id="pokemon-data" >
                   <div id="titulo"class="col-12 text-center">
