@@ -38,7 +38,7 @@ function pokeStructure(data){
      
     
     const html=
-    `  <div class="" id="pkemon" >
+    `  <div >
     <div class="row justify-content-center" >
       <div id="pokemon-data" style="background-color:${x} ">
           <div id="titulo"class=" text-center">
